@@ -1,10 +1,26 @@
 def find_first_duplicate(arr)
   # type your code in here
+
+
+
+  # if arr.length == arr.uniq.length
+  #   return -1
+  # else
+
+  #make new empty array to insert values
+  #loop and check if value is in array, return if it is
+
+
+
+
+
+
+
 end
 
 if __FILE__ == $PROGRAM_NAME
-  puts "Expecting: 3"
-  puts "=>", find_first_duplicate([2, 1, 3, 3, 2])
+  puts "Expecting: 4"
+  puts "=>", find_first_duplicate([2, 1, 4, 4, 2])
 
   puts
 
