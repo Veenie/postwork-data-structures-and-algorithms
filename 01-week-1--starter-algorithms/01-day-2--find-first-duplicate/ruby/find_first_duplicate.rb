@@ -6,10 +6,16 @@ def find_first_duplicate(arr)
   # if arr.length == arr.uniq.length
   #   return -1
   # else
-
   #make new empty array to insert values
   #loop and check if value is in array, return if it is
+  
+    counts = []
+    arr.each do |value|
+        return value if counts.include?(value)
+        counts << value
+    end
 
+    -1
 
 
 
