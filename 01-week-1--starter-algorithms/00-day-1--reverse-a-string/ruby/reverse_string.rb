@@ -1,5 +1,8 @@
 def reverse_string(str)
   # type your code in here
+  #create empty string to insert values
+  #loop and add current value to the front of the string
+  
   reversed = ""
   str.each_char do |x|
     reversed= x + reversed
