@@ -4,7 +4,7 @@ def fibonacci(num)
     return num
   else 
     return fibonacci(num -1) + fibonacci(num -2)
-  end   
+  end
 end
 
 if __FILE__ == $PROGRAM_NAME

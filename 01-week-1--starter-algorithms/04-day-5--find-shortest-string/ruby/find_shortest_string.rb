@@ -10,9 +10,7 @@ def find_shortest_string(arr)
     first
 end
 
-# arr.reduce do |shortest, string| 
-#   string.length < shortest.length ? string : shortest
-# end
+
 
 if __FILE__ == $PROGRAM_NAME
   puts "Expecting: 'a'"
